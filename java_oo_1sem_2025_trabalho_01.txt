@@ -1,0 +1,26 @@
+Desenvolver um sistema de caixa de supermercado que:
+receba uma lista de itens, realize a contagem de itens, a soma do valor, descrimine o cliente e a loja;
+Cada item deve ter:
+	codigoProduto;
+	nomeProduto;
+	quantidadeProduto;
+	valorProduto;
+Cada cliente deve ter:
+	codigoCliente;
+	nomeCliente;
+	dataCadastroCliente;
+	cpfCnpjCliente;
+
+Cada loja deve ter:
+	codigoLoja;
+	nomeLoja;
+	cnpjLoja;
+	razaoSocialLoja;
+	enderecoLoja;
+
+O "cupom fiscal" deve retornar no cabeçalho:
+Dados da loja e do cliente;
+No corpo: itens, quantidade, valor  e o subtototal;
+
+No final da página(footer) a contagem dos itens e valor total;
+
